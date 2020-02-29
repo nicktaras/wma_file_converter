@@ -11,3 +11,7 @@ To use this user interface to carry out the conversion of the files:
 
 1. TODO
 
+
+This was made possible with this amazing library:
+
+https://pypi.org/project/ftransc/
