@@ -1,5 +1,5 @@
-# wma_to_mp3
-a pyton script to convert wma files into mp3
+# audio_converter
+a pyton script to convert audio files
 
 To get up and running via the command line:
 
