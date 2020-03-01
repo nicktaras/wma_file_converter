@@ -36,6 +36,8 @@ https://docs.python.org/3/library/tk.html
 
 https://build-system.fman.io/pyqt5-tutorial
 
+https://www.tutorialspoint.com/python3/python_files_io.htm
+
 ## Application development steps:
 
 1. Create a dialog UI that will house all of the components.
