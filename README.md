@@ -12,6 +12,7 @@ a pyton script to convert audio files
 ## Supported files ftransc
 
 tag	         m4a	mp3	ogg	flac	wma	mpc	wav	wv
+
 title	        Y	   Y	 Y	  Y	   Y	 Y	 N	Y
 artist        Y	   Y	 Y	  Y	   Y	 Y	 N	Y
 album	        Y	   Y	 Y	  Y	   Y	 Y	 N	Y
@@ -28,3 +29,19 @@ comment	      N	   N	 N	  N	   N	 N	 N	N
 ## ftransc Library
 
 https://pypi.org/project/ftransc/
+
+## reading
+
+https://docs.python.org/3/library/tk.html
+
+https://build-system.fman.io/pyqt5-tutorial
+
+## Application development steps:
+
+1. Create a dialog UI that will house all of the components.
+2. Include a browse button to select the source folder.
+3. Store the source folder value.
+4. Include drop down to select the conversion type e.g. wma > mp3
+5. Store the type value.
+6. Include button to start the process.
+7. Notify the end user when the conversion is complete.
