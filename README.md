@@ -38,6 +38,14 @@ https://build-system.fman.io/pyqt5-tutorial
 
 https://www.tutorialspoint.com/python3/python_files_io.htm
 
+https://data-flair.training/blogs/python-best-practices/
+
+## util
+
+https://github.com/navdeep-G/samplemod
+
+https://www.python-boilerplate.com/py3+executable+gitignore+unittest
+
 ## Application development steps:
 
 1. Create a dialog UI that will house all of the components.
