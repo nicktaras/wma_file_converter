@@ -11,20 +11,20 @@ a pyton script to convert audio files
 
 ## Supported files ftransc
 
-tag	         m4a	mp3	ogg	flac	wma	mpc	wav	wv
-
-title	        Y	   Y	 Y	  Y	   Y	 Y	 N	Y
-artist        Y	   Y	 Y	  Y	   Y	 Y	 N	Y
-album	        Y	   Y	 Y	  Y	   Y	 Y	 N	Y
-genre	        Y	   Y	 Y	  Y	   Y	 Y	 N	Y
-date	        Y	   Y	 Y	  Y	   Y	 Y	 N	Y
-tracknumber	  Y	   Y	 Y	  Y	   Y	 Y	 N	Y
-composer	    Y	   Y	 Y	  Y	   Y	 Y	 N	N
-publisher	    N	   Y	 N	  N	   Y	 N	 N	N
-lyrics	      Y	   Y	 N	  N	   Y	 N	 N	N
-album art	    Y	   Y	 N	  Y	   N	 N	 N	N
-album artist	N	   N	 N	  N	   N	 N	 N	N
-comment	      N	   N	 N	  N	   N	 N	 N	N
+| tag	        | m4a | mp3 | ogg	| flac | wma | mpc | wav | wv | 
+| ----------- |:---:|:---:|:---:|:----:|:---:|:---:|:---:|:--:|
+| title	      |  Y	|  Y	|  Y	| Y	   | Y   |	Y	 |  N	 | Y  |
+| artist      |  Y	|  Y	|  Y	| Y	   | Y   |	Y	 |  N	 | Y  |
+| album	      |  Y	|  Y	|  Y	| Y	   | Y   |	Y	 |  N	 | Y  |
+| genre	      |  Y	|  Y	|  Y	| Y	   | Y   |	Y	 |  N	 | Y  |
+| date	      |  Y	|  Y	|  Y	| Y	   | Y   |	Y	 |  N	 | Y  |
+| tracknumber	|  Y	|  Y	|  Y	| Y	   | Y   |	Y	 |  N	 | Y  |
+| composer	  |  Y	|  Y	|  Y	| Y	   | Y   |	Y	 |  N	 | N  |
+| publisher	  |  N	|  Y	|  N	| N	   | Y   |	N	 |  N	 | N  |
+| lyrics	    |  Y	|  Y	|  N	| N	   | Y   |	N	 |  N	 | N  |
+| album art	  |  Y	|  Y	|  N	| Y	   | N   |	N	 |  N	 | N  |
+| album artist|	 N  |  N	|  N	| N	   | N   |	N	 |  N	 | N  |
+| comment	    |  N	|  N	|  N	| N	   | N   |	N	 |  N	 | N  |
 
 ## ftransc Library
 
