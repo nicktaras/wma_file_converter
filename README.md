@@ -2,6 +2,8 @@
 
 a pyton script to convert audio files
 
+![alt text](https://raw.githubusercontent.com/nicktaras/audio_converter/master/Screenshot%202020-03-02%20at%2022.39.23.png?raw=true)
+
 ## Alternatively ftransc can be used via the command line like so:
 
 1. brew install ffmpeg lame
@@ -54,4 +56,4 @@ https://www.python-boilerplate.com/py3+executable+gitignore+unittest
 6. Include button to start the process.
 7. Notify the end user when the conversion is complete.
 
-![alt text](https://raw.githubusercontent.com/nicktaras/audio_converter/master/Screenshot%202020-03-02%20at%2022.39.23.png?raw=true)
+
