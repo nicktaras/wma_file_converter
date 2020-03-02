@@ -1,6 +1,6 @@
 # audio_converter
 
-a pyton application to convert audio files from wma to mp3 or ogg.
+a python application to convert audio files from wma to mp3 or ogg.
 
 ![alt text](https://raw.githubusercontent.com/nicktaras/audio_converter/master/Screenshot%202020-03-02%20at%2022.39.23.png?raw=true)
 
@@ -55,5 +55,11 @@ https://www.python-boilerplate.com/py3+executable+gitignore+unittest
 5. Store the type value.
 6. Include button to start the process.
 7. Notify the end user when the conversion is complete.
+
+## Usage
+
+TODO...
+
+
 
 
