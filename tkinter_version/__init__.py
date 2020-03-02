@@ -10,22 +10,26 @@ import os
 
 # styles
 leftPadding = 20
+backgroundColor = '#3E4149'
+canvasSize = "300x300"
 
 # Initialise tkinter
 top = Tk()
 
-# Canvas Size
-top.geometry("300x300")
-top.configure(bg='#3E4149')
+# Appplication Settings
+top.geometry(canvasSize)
+top.configure(bg=backgroundColor)
 top.title("WMA File Converter")  
 
-appTitle = Label(top, text="Windows Media Audio Converter", background="#3E4149", foreground="white")
+# Application Title
+appTitle = Label(top, text="Windows Media Audio Converter", background=backgroundColor, foreground="white")
 appTitle.pack()
 appTitle.place(x = leftPadding, y = 14)
 
+# User Selected Directory
 directoryTitleVar = StringVar()
 directoryTitleVar.set('')
-directoryTitle = Label(top, wraplength=250, textvariable=directoryTitleVar, background="#3E4149", foreground="white", justify="left")
+directoryTitle = Label(top, wraplength=250, textvariable=directoryTitleVar, background=backgroundColor, foreground="white", justify="left")
 directoryTitle.pack()
 directoryTitle.place(x = leftPadding, y = 90)
 
@@ -42,7 +46,7 @@ def fromDirectoryHandler():
 errmsg = 'Error!'
 
 # Browser Directory Button
-fromDirectoryButton = Button(top, text = "Choose Directory", command = fromDirectoryHandler, highlightbackground='#3E4149')
+fromDirectoryButton = Button(top, text = "Choose Directory", command = fromDirectoryHandler, highlightbackground=backgroundColor)
 fromDirectoryButton.place(x = leftPadding, y = 50)
 
 # Supported File types:
