@@ -11,6 +11,8 @@ import webbrowser
 
 # styles
 leftPadding = 20
+backgroundColor = '#3E4149'
+canvasSize = "300x300"
 
 # Initialise tkinter
 top = Tk()
@@ -38,7 +40,7 @@ gitButton.place(x = 175, y = 320)
 
 directoryTitleVar = StringVar()
 directoryTitleVar.set('')
-directoryTitle = Label(top, wraplength=250, textvariable=directoryTitleVar, background="#3E4149", foreground="white", justify="left")
+directoryTitle = Label(top, wraplength=250, textvariable=directoryTitleVar, background=backgroundColor, foreground="white", justify="left")
 directoryTitle.pack()
 directoryTitle.place(x = leftPadding, y = 90)
 
