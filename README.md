@@ -38,6 +38,8 @@ https://www.tutorialspoint.com/python3/python_files_io.htm
 
 https://data-flair.training/blogs/python-best-practices/
 
+https://stackabuse.com/python-check-if-string-contains-substring/
+
 ## util
 
 https://github.com/navdeep-G/samplemod
