@@ -22,6 +22,8 @@ https://wiki.python.org/moin/UnitTests
 
 https://pypi.org/project/py2app/
 
+https://www.youtube.com/watch?v=xuXYKhdoTsw&feature=youtu.be&fbclid=IwAR2vCa-y8EsEshZzdv4uZY2X112el342TbpcbbG2RUlgb5NMUVrxBLJEWPY
+
 ## util
 
 https://pypi.org/project/ftransc/
