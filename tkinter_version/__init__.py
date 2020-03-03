@@ -8,6 +8,8 @@ import subprocess
 from pathlib import Path
 import os
 import webbrowser
+import sys
+import cmd
 
 # styles
 leftPadding = 20
@@ -43,6 +45,27 @@ directoryTitleVar.set('')
 directoryTitle = Label(top, wraplength=250, textvariable=directoryTitleVar, background=backgroundColor, foreground="white", justify="left")
 directoryTitle.pack()
 directoryTitle.place(x = leftPadding, y = 90)
+
+# Process output
+progressOutputVar = StringVar()
+progressOutputVar.set('')
+progressOutput = Label(top, wraplength=250, width=32, textvariable=progressOutputVar, foreground="white", justify="left")
+progressOutput.configure(bg = "#234")
+progressOutput.pack()
+progressOutput.place(x = leftPadding, y = 160)
+
+# Process complete output
+filesConvertedLabel = Label(top, wraplength=250, text="Files Successfully Converted:", foreground="white", justify="left")
+filesConvertedLabel.configure(bg = backgroundColor)
+filesConvertedLabel.pack()
+filesConvertedLabel.place(x = leftPadding, y = 208)
+
+filesConvertedOutputVar = IntVar()
+filesConvertedOutputVar.set(0)
+filesConvertedOutput = Label(top, wraplength=250, textvariable=filesConvertedOutputVar, foreground="white", justify="left")
+filesConvertedOutput.configure(bg = backgroundColor)
+filesConvertedOutput.pack()
+filesConvertedOutput.place(x = 210, y = 208)
 
 # Directory
 fromDirectory = StringVar()
@@ -81,6 +104,15 @@ convertFilesButton.place(x = 200, y = 250)
 def convertFile(_path, _type):
     for i in Path(_path).glob('**/*'):
         if str(i).endswith('.wma'):
-            subprocess.call(['ftransc', '-q', 'extreme', '-f', _type, str(i)])
-
+            outputChildProcess = subprocess.check_output(['ftransc', '-q', 'extreme', '-f', _type, str(i)])
+            if str(outputChildProcess).find("Success") != -1:
+                progressOutputVar.set("File Success: " + str(i))
+                progressOutput.configure(bg = "#105b10")
+                filesConvertedOutputVar.set(filesConvertedOutputVar.get()+1)
+                top.update()
+            else:
+                progressOutputVar.set("File Skipped: " + str(i))
+                progressOutput.configure(bg = "#992a2a")
+                top.update()
+                
 top.mainloop()
