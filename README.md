@@ -2,7 +2,7 @@
 
 a python application to convert audio files from wma to mp3 or ogg.
 
-![alt text](https://raw.githubusercontent.com/nicktaras/audio_converter/master/Screenshot%202020-03-02%20at%2022.39.23.png?raw=true)
+![alt text](https://raw.githubusercontent.com/nicktaras/audio_converter/master/Screenshot%202020-03-03%20at%2019.01.26.png?raw=true)
 
 ## Alternatively ftransc can be used via the command line like so:
 
