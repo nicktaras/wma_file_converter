@@ -42,6 +42,8 @@ https://data-flair.training/blogs/python-best-practices/
 
 https://wiki.python.org/moin/UnitTests
 
+https://pypi.org/project/py2app/
+
 ## util
 
 https://github.com/navdeep-G/samplemod
@@ -58,9 +60,9 @@ https://www.python-boilerplate.com/py3+executable+gitignore+unittest
 6. Include button to start the process.
 7. Notify the end user when the conversion is complete.
 
-## Usage
+## Usage notes (End User)
 
-TODO...
+TODO
 
 
 
