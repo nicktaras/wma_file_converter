@@ -6,7 +6,7 @@ a python application to convert audio files from wma to mp3 or ogg.
 
 ## development
 
-Download the repo, install dependancies and run __init__.py
+Download the repo, install dependancies and run `__init__.py`
 
 ## reading
 
