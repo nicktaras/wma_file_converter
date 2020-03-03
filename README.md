@@ -1,4 +1,4 @@
-# audio_converter
+# wma file converter
 
 a python application to convert audio files from wma to mp3 or ogg.
 
