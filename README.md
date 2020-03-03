@@ -4,33 +4,9 @@ a python application to convert audio files from wma to mp3 or ogg.
 
 ![alt text](https://raw.githubusercontent.com/nicktaras/audio_converter/master/Screenshot%202020-03-03%20at%2019.01.26.png?raw=true)
 
-## Alternatively ftransc can be used via the command line like so:
+## development
 
-1. brew install ffmpeg lame
-3. pip install ftransc
-3. Run a test after installation, run `ftransc -f mp3 filename.wma`
-4. Then run against a whole directory run `ftransc -f wma --directory /path/to/folder_name`
-
-## Supported files ftransc
-
-| tag	        | m4a | mp3 | ogg	| flac | wma | mpc | wav | wv | 
-| ----------- |:---:|:---:|:---:|:----:|:---:|:---:|:---:|:--:|
-| title	      |  Y	|  Y	|  Y	| Y	   | Y   |	Y	 |  N	 | Y  |
-| artist      |  Y	|  Y	|  Y	| Y	   | Y   |	Y	 |  N	 | Y  |
-| album	      |  Y	|  Y	|  Y	| Y	   | Y   |	Y	 |  N	 | Y  |
-| genre	      |  Y	|  Y	|  Y	| Y	   | Y   |	Y	 |  N	 | Y  |
-| date	      |  Y	|  Y	|  Y	| Y	   | Y   |	Y	 |  N	 | Y  |
-| tracknumber	|  Y	|  Y	|  Y	| Y	   | Y   |	Y	 |  N	 | Y  |
-| composer	  |  Y	|  Y	|  Y	| Y	   | Y   |	Y	 |  N	 | N  |
-| publisher	  |  N	|  Y	|  N	| N	   | Y   |	N	 |  N	 | N  |
-| lyrics	    |  Y	|  Y	|  N	| N	   | Y   |	N	 |  N	 | N  |
-| album art	  |  Y	|  Y	|  N	| Y	   | N   |	N	 |  N	 | N  |
-| album artist|	 N  |  N	|  N	| N	   | N   |	N	 |  N	 | N  |
-| comment	    |  N	|  N	|  N	| N	   | N   |	N	 |  N	 | N  |
-
-## ftransc Library
-
-https://pypi.org/project/ftransc/
+Download the repo, install dependancies and run __init__.py
 
 ## reading
 
@@ -46,23 +22,13 @@ https://pypi.org/project/py2app/
 
 ## util
 
+https://pypi.org/project/ftransc/
+
 https://github.com/navdeep-G/samplemod
 
 https://www.python-boilerplate.com/py3+executable+gitignore+unittest
 
-## Application development steps:
 
-1. Create a dialog UI that will house all of the components.
-2. Include a browse button to select the source folder.
-3. Store the source folder value.
-4. Include drop down to select the conversion type e.g. wma > mp3
-5. Store the type value.
-6. Include button to start the process.
-7. Notify the end user when the conversion is complete.
-
-## Usage notes (End User)
-
-TODO
 
 
 
