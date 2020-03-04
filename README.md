@@ -37,6 +37,7 @@ https://www.python-boilerplate.com/py3+executable+gitignore+unittest
 - Split into files apply OOP structure / methodologies 
 - Unit testing
 - Re-work directory to use a best practice Python folder strucure
+- Explore other features for v2.0 e.g. mp3 to wav
 
 
 
