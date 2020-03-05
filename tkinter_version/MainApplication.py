@@ -20,7 +20,7 @@ class MainApplication(tk.Frame):
         # styles
         leftPadding = 20
         backgroundColor = '#3E4149'
-        canvasSize = "300x300"
+        canvasSize = "300x350"
 
         # Canvas Size
         parent.geometry(canvasSize)
