@@ -23,7 +23,7 @@ class MainApplication(tk.Frame):
         canvasSize = "300x300"
 
         # Canvas Size
-        parent.geometry("300x350")
+        parent.geometry(canvasSize)
         self.configure(bg='#3E4149')
         parent.title("WMA File Converter - Nick Taras") 
 
