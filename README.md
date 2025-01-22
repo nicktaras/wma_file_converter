@@ -1,6 +1,6 @@
 # wma file converter
 
-a python application to convert audio files from wma to mp3 or ogg.
+A python application to convert audio files from wma to mp3 or ogg.
 
 ![alt text](https://raw.githubusercontent.com/nicktaras/audio_converter/master/Screenshot%202020-03-03%20at%2019.01.26.png?raw=true)
 
